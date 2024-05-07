@@ -1,7 +1,7 @@
 var font;
 
 function preload(){
-  font = loadFont('../fonts/Quentin.otf');
+  font = loadFont('fonts/Quentin.otf');
 }
 
 

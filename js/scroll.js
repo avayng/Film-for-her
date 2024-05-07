@@ -4,9 +4,9 @@ var ex3;
 
 
 function preload(){
- ex1=loadImage('../img/ex1.jpg');
- ex2=loadImage('../img/ex2.jpg');
- ex3=loadImage('../img/palm tree.jpg');
+ ex1=loadImage('img/ex1.jpg');
+ ex2=loadImage('img/ex2.jpg');
+ ex3=loadImage('img/palm tree.jpg');
 }
 
 

@@ -5,8 +5,8 @@ let y= 0;
 var font;
 
 function preload(){
-  font= loadFont('../fonts/OceansideTypewriter.ttf');
-  bg = loadImage('../img/film4.jpg');
+  font= loadFont('fonts/OceansideTypewriter.ttf');
+  bg = loadImage('img/film4.jpg');
 
 }
 
