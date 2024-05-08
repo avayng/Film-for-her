@@ -9,7 +9,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(font);
-  textSize(25);
+  textSize(45);
   noCursor();
   imageMode(CENTER);
 }
