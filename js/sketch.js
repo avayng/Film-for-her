@@ -15,6 +15,7 @@ function setup() {
   
   angleMode(DEGREES);
   textSize(45);
+  
   s1 = createSlider(1,10,5,1).position(20,750);
   p1 = createP('pleasantly lost: ').position(20,710);
   s2 = createSlider(2,8,5,1).position(200,750);
