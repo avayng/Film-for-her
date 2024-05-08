@@ -69,7 +69,7 @@ function draw() {
   
   noStroke();
   fill(251,244,226);
-  circle(mouseX,mouseY,900);
+  circle(mouseX,mouseY,950);
   fill(145,84,115);
   textSize(20);
   text('"pleasantly lost"',mouseX,mouseY);
