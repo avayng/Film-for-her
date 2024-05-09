@@ -39,7 +39,7 @@ function draw() {
 
 
 
- text('(press right arrow)',1000,800);
+ text('(press right arrow)',1290,800);
 
  textSize(30);
  
