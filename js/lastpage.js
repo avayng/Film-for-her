@@ -39,24 +39,24 @@ function draw() {
 
 
 
- text('click the right arrow',50,800);
+ text('(press right arrow)',1400,800);
 
- textSize(25);
+ textSize(30);
 
   if (arrowKeyPresses == 1) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
-    text('A dalliance',100,200);
+    text('A dalliance', 270,290);
 
   } else if (arrowKeyPresses == 2) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
-    text('with a scene',100,300);
+    text('with a scene',730,290);
 
   } else if (arrowKeyPresses == 3) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
-    text('doomed from the start',100,400);
+    text('doomed from the start',1100,290);
 
 
   } else if (arrowKeyPresses == 4) {
@@ -64,7 +64,7 @@ function draw() {
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
-    text('Another',100,200);
+    text('Another',80,200);
 
 
   } else if (arrowKeyPresses == 5) {
@@ -73,7 +73,7 @@ function draw() {
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
-    text('one of my',100,300);
+    text('one of my',80,300);
 
   } else if (arrowKeyPresses == 6) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
@@ -82,7 +82,7 @@ function draw() {
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
-    text('early years',100,400);
+    text('early years',80,400);
 
 
   } else if (arrowKeyPresses == 7) {
@@ -93,7 +93,7 @@ function draw() {
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
-    text('spent',100,300);
+    text('spent',700,600);
 
 
   } else if (arrowKeyPresses == 8) {
@@ -105,7 +105,7 @@ function draw() {
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
     image(tree,width*(3/7),height*(5/7), width / 9, width / 9);
-    text('with',100,300);
+    text('with',900,600);
 
 
   } else if (arrowKeyPresses == 9) {
@@ -118,7 +118,7 @@ function draw() {
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
     image(tree,width*(3/7),height*(5/7), width / 9, width / 9);
     image(malibu,width*(5/7), height*(5/7), width / 9, width / 9);
-    text('you',100,300);
+    text('you.',1200,600);
   }
 }
 
