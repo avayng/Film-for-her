@@ -58,8 +58,8 @@ function draw() {
   text('intoxicating,', 1250,390);
 
  
-  text('even the afternoon sun refuses to hide behind',200,400);
-  text("yesterday's rain clouds.",300,420);
+  text('even the afternoon sun refuses to hide behind',300,400);
+  text("yesterday's rain clouds.",340,420);
   text("An arbitrary prelude to a winter",300,440);
   fill(243,202,218);
   text("that's already begun planting",600, 452);
