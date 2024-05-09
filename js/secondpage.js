@@ -16,7 +16,7 @@ function preload(){
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textSize(24);
+  textSize(20);
   textFont(font);
 }
 
@@ -35,7 +35,7 @@ function draw() {
   }
   
   fill(67,133,137);
-  text ('press spacebar',width/2,800) ;
+  text ('(press spacebar)',width/2,800) ;
   
   
 //     image(pic1,-150,80,700,500);

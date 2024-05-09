@@ -39,9 +39,12 @@ function draw() {
 
 
 
- text('(press right arrow)',1400,800);
+ text('(press right arrow)',1000,800);
 
  textSize(30);
+ 
+
+
 
   if (arrowKeyPresses == 1) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
