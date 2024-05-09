@@ -14,14 +14,14 @@ function setup() {
   //code was followed from tutorial by Colorful Coding on Youtube//
   
   angleMode(DEGREES);
-  textSize(45);
+  textSize(65);
   
   s1 = createSlider(1,10,5,1).position(20,750);
-  p1 = createP('pleasantly lost: ').position(20,710);
+  p1 = createP('film ').position(20,710);
   s2 = createSlider(2,8,5,1).position(200,750);
-  p2 = createP('a').position(200,710);
+  p2 = createP('for').position(200,710);
   s3 = createSlider(3,30,3,1).position(400,750);
-  p3 = createP('... daydream').position(400,710);
+  p3 = createP('her...').position(400,710);
   
 }
 

@@ -5,7 +5,7 @@ var font;
 
 
 function preload(){
- ex1=loadImage('img/ex1.jpg');
+ ex1=loadImage('img/lovestore.jpg');
  ex2=loadImage('img/ex2.jpg');
  ex3=loadImage('img/palm tree.jpg');
  font = loadFont("fonts/OceansideTypewriter.ttf");
