@@ -26,43 +26,55 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(font);
-  textSize(25);
+  
 }
 
 function draw() {
-  background(251, 244, 226);
+ // background(251, 244, 226);
+ background ('black');
 
-  fill(67,133,137);
-  fill(145, 84, 115);
+
+  textSize(15);
   fill(243,202,218);
 
 
-  text("A dalliance with a scene doomed from the start. ",150, 50);
 
-  text("Another one of my early years spent with you. ", 100, 70);
+ text('click the right arrow',50,800);
 
-  fill("white");
+ textSize(25);
 
   if (arrowKeyPresses == 1) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
+    text('A dalliance',100,200);
+
   } else if (arrowKeyPresses == 2) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
+    text('with a scene',100,300);
+
   } else if (arrowKeyPresses == 3) {
     image(photos, width*(1/7), height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
+    text('doomed from the start',100,400);
+
+
   } else if (arrowKeyPresses == 4) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
+    text('Another',100,200);
+
+
   } else if (arrowKeyPresses == 5) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
     image(car,width*(5/7), height*(5/70), width / 9, width / 9);
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
+    text('one of my',100,300);
+
   } else if (arrowKeyPresses == 6) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
@@ -70,6 +82,9 @@ function draw() {
     image(hands, width*(1/7),height*(25/70), width / 9, width / 9);
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
+    text('early years',100,400);
+
+
   } else if (arrowKeyPresses == 7) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
@@ -78,6 +93,9 @@ function draw() {
     image(boots,width*(3/7),height*(25/70), width / 9, width / 9);
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
+    text('spent',100,300);
+
+
   } else if (arrowKeyPresses == 8) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
@@ -87,6 +105,9 @@ function draw() {
     image(us,width*(5/7), height*(25/70), width / 9, width / 9);
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
     image(tree,width*(3/7),height*(5/7), width / 9, width / 9);
+    text('with',100,300);
+
+
   } else if (arrowKeyPresses == 9) {
     image(photos, width*(1/7),height*(5/70), width / 9, width / 9);
     image(wine,width*(3/7),height*(5/70), width / 9, width / 9);
@@ -97,6 +118,7 @@ function draw() {
     image(road, width*(1/7),height*(5/7), width / 9, width / 9);
     image(tree,width*(3/7),height*(5/7), width / 9, width / 9);
     image(malibu,width*(5/7), height*(5/7), width / 9, width / 9);
+    text('you',100,300);
   }
 }
 

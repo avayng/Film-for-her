@@ -9,7 +9,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textFont(font);
-  textSize(45);
+  textSize(40);
   noCursor();
   imageMode(CENTER);
 }
@@ -71,7 +71,7 @@ function draw() {
   fill(251,244,226);
   circle(mouseX,mouseY,950);
   fill(145,84,115);
-  textSize(20);
+  textSize(30);
   text('"pleasantly lost"',mouseX,mouseY);
   textAlign(CENTER);
 

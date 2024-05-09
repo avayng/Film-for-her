@@ -15,8 +15,8 @@ function preload(){
 
 
 function setup() {
-  createCanvas(800, 800);
-  textSize(30);
+  createCanvas(windowWidth, windowHeight);
+  textSize(24);
   textFont(font);
 }
 
@@ -25,22 +25,26 @@ function draw() {
   
   
   if (arrowKeyPresses == 1) {
-    image(pic1,-150,80,700,500);
+    image(pic1,width/4,80,700,500);
   } else if (arrowKeyPresses == 2) { 
 
-       image(pic3, 40,80,700,500);
+       image(pic3, width/4,80,700,500);
   } else if(arrowKeyPresses == 3) {
  
-    image(pic2,-130,80,700,500);
+    image(pic2,width/4,80,700,500);
   }
   
-  fill('pink');
-  text ('spacebar',300,700) ;
+  fill(67,133,137);
+  text ('press spacebar',width/2,800) ;
   
   
 //     image(pic1,-150,80,700,500);
  // image(pic2,-130,80,700,500);
  //  image(pic3, 40,80,700,500);
+
+ //fill(67,133,137);
+ //  fill(145,84,115);
+  // fill(243,202,218);
 
     
 }

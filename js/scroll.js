@@ -25,13 +25,15 @@ function draw() {
   
   //stroke('white'); 
   noStroke();
-  rect(350,55,700,800);
+  fill('white');
+  rect(450,55,700,800);
+  fill(67,133,137);
 
 
   //noStroke();
   if(mouseX < width/3){
     
-     image(ex1,400,100,600,600);
+     image(ex1,500,100,600,600);
     
     // fill(255,0,0);
     // text('one',20,width/3);
@@ -39,14 +41,14 @@ function draw() {
   
   else if (mouseX> width/3 && mouseX < 2* width/3){
     
-       image(ex2,400,100,600,600);
+       image(ex2,500,100,600,600);
 
 //     fill(0,0,225);
 //     text('two',180,width/3);
     }
   
   else {
-       image(ex3,400,100,600,600);
+       image(ex3,500,100,600,600);
 
  
     }
